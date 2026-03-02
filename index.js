@@ -5,5 +5,5 @@ for (let i = 0; i < drums.length; i++) {
 }
 
 function handleClick() {
-  alert("mikeOS");
+  new Audio("sounds/crash.mp3").play();
 }
